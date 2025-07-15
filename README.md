@@ -58,3 +58,53 @@ Strategic Impact
 ✨ Enhanced competitiveness and profitability through intelligent, autonomous manufacturing systems.
 
 Transforming semiconductor manufacturing into an adaptive, predictive, and efficient operation with AI-driven optimization of critical fab processes.
+
+
+
+
+
+
+
+
+
+🔷 Foundational Capability: End-to-End AI Pipeline for Document Intelligence and Model Optimization
+
+🌟 Slide 1: End-to-End AI Pipeline for Document Intelligence & Model Optimization
+Context & Objectives
+Enterprises generate vast amounts of unstructured data (e.g., scanned PDFs, contracts, spreadsheets, handwritten notes), which are hard to utilize for AI-driven workflows.
+
+General-purpose large language models (LLMs) lack domain adaptation and are inefficient at inference in production.
+
+Objectives:
+
+Transform unstructured enterprise documents into structured, machine-readable knowledge.
+
+Generate high-quality synthetic instruction–response datasets tailored for enterprise-specific tasks.
+
+Fine-tune small language models (SLMs) optimized for retrieval-augmented generation (RAG).
+
+Enable efficient, fast, and scalable inference-time deployment of models.
+
+🌟 Slide 2: Modular Solution & Strategic Impact
+Modular AI Workflow
+✅ StructiDoc AI: Parses and structures unstructured enterprise documents into LLM-ready formats.
+✅ SynGen AI: Generates synthetic instruction–response datasets using vision-language models and reward-model filtering for enterprise RAG tasks.
+✅ PORAG Trainer: Fine-tunes small language models with policy-optimized retrieval-augmented generation, enhancing factuality, reasoning, and efficiency.
+✅ OptiInfer AI: Delivers scalable, fast, and memory-efficient inference-time optimization through advanced decoding and adaptive reasoning techniques.
+
+Strategic Impact
+✨ Unlocks value from unstructured enterprise data by powering AI-ready structured knowledge.
+✨ Reduces cost and time for domain-specific model training using synthetic datasets.
+✨ Improves accuracy, reliability, and responsiveness of RAG-based applications.
+✨ Enables secure, scalable, and efficient deployment of AI systems in production environments.
+
+A unified, modular pipeline to drive enterprise AI transformation — from raw documents to optimized, deployed models.
+
+
+
+
+
+
+
+
+
