@@ -85,6 +85,10 @@ Fine-tune small language models (SLMs) optimized for retrieval-augmented generat
 
 Enable efficient, fast, and scalable inference-time deployment of models.
 
+
+
+
+
 🌟 Slide 2: Modular Solution & Strategic Impact
 Modular AI Workflow
 ✅ StructiDoc AI: Parses and structures unstructured enterprise documents into LLM-ready formats.
@@ -99,6 +103,92 @@ Strategic Impact
 ✨ Enables secure, scalable, and efficient deployment of AI systems in production environments.
 
 A unified, modular pipeline to drive enterprise AI transformation — from raw documents to optimized, deployed models.
+
+
+
+
+
+
+
+
+🌟 Slide 1: Why Agentic RAG for Time Series?
+The Need & Motivation
+Time series analysis is foundational in many domains:
+📈 Demand forecasting, 📊 anomaly detection in operations, 🧩 missing data imputation in finance & healthcare.
+
+However, time series data is dynamic, non-stationary, and highly context-dependent:
+
+Patterns like seasonality, trends, and regime shifts require context-aware reasoning.
+
+Static, rule-based pipelines cannot adapt to changing data distributions or compose multi-step reasoning.
+
+Why RAG for Time Series?
+Retrieval-Augmented Generation (RAG) brings external knowledge into the reasoning loop, enabling:
+
+Contextual awareness by retrieving similar historical patterns or domain knowledge.
+
+Better handling of rare events, long-range dependencies, and concept drift.
+
+Flexible support for a variety of tasks (forecasting, anomaly detection, classification, imputation) through retrieved guidance.
+
+Why Agentic RAG?
+Existing RAG systems are static: fixed retrieval & model application.
+
+Agentic RAG makes RAG dynamic and adaptive, enabling the system to:
+✅ Plan what to retrieve and when.
+✅ Select the most appropriate time series model based on current task and context.
+✅ Iteratively reason and refine outputs, improving accuracy and robustness.
+
+Impact of Agentic RAG
+Brings human-like analytical reasoning to time series analysis.
+
+Achieves higher accuracy, adaptability, and compositional generalization compared to traditional pipelines.
+
+
+
+
+
+
+
+
+
+🌟 Slide 2: Key Contributions & Strategic Impact
+Agentic Framework & Innovations
+✅ Hierarchical Agentic RAG Architecture
+
+A master agent interprets user queries and delegates subtasks to specialized sub-agents (forecasting, anomaly detection, imputation, classification).
+
+Sub-agents run small, instruction-tuned language models (SLMs) optimized for their specific time series tasks.
+
+✅ System 2-Style Reasoning Loop
+
+Agent employs deliberate, iterative reasoning (Reason → Act → Reflect), mimicking human analytical decision-making.
+
+Supports re-querying, model chaining, and multi-step workflows.
+
+✅ Differentiable Prompt Pools
+
+Sub-agents maintain prompt pools of encoded temporal patterns and reasoning templates.
+
+Prompts are retrieved based on latent-space similarity and fused with input to encode long-range dependencies and adapt to distribution shifts.
+
+✅ Prompt-Oriented Input Augmentation
+
+Retrieved prompts enrich input windows with relevant historical signals (seasonality, trends, anomalies).
+
+✅ Scalability & Modularity
+
+Plug-and-play architecture: new tasks or models can be added without retraining the master agent.
+
+Independent prompt pool and policy updates enable continual learning and improvement.
+
+Strategic Impact
+✨ Adaptive, explainable, and modular time series analysis pipeline.
+✨ Improved performance on complex, dynamic time series tasks.
+✨ Enables multi-task, compositional workflows and future extensibility.
+
+An intelligent, agentic RAG system that brings human-like reasoning to time series analysis — adaptive, modular, and scalable.
+
 
 
 
